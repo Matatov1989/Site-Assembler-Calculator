@@ -1,0 +1,20 @@
+p{
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+
+
+ol.type_nume{
+	padding-left: 23%; /* Поле слева */
+	list-style-type: disc;
+}
+
+li.type_nume{
+	font-size: 20px;
+	font-family: Times New Roman;
+}
+ 
+
+
+
+

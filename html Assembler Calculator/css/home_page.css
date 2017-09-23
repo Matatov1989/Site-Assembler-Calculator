@@ -1,24 +1,10 @@
-p{
-	font-size: 20px;
-	font-family: Times New Roman;
-
-}
-
-
-ol.type_nume{
-	padding-left: 23%; /* Поле слева */
-	list-style-type: disc;
-}
-
-li.type_nume{
-	font-size: 20px;
-	font-family: Times New Roman;
-}
-
 span.colortext {
 	color: #FF4500; /* Красный цвет выделения */
 }
 
+h1, h2, h3, h4, p {
+	font-family: Roboto;
+}
 .radius
 {
  background: #f0f0f0;
@@ -26,8 +12,100 @@ span.colortext {
  padding: 20px;
  margin-bottom: 100px;
 }
- 
 
+.welcome {
+	width: 100%;
+	height: 500px;
+	margin-top: 30px;
+	margin-bottom:30px;
+}
 
+.welcome h1 {
+	text-align: center;
+	font-size: 30pt;
+	
+}
 
+.container {
+	display: table; margin: 50px auto 0 auto;
+	height: 380px;
+	
+}
+.cover {
+	width: 190px;
+	height: 380px;
+	margin: 0px 25px 0px 0px;
+	float: left;
+	
+}
 
+.text {
+	display: table; margin: 50px auto 0 auto;
+	width: 500px;
+	height: 200px;
+	
+	
+}
+
+.text p {
+	
+	font-size: 20pt;
+}
+
+.content {
+	display: table; margin: 0 auto;
+	width: 800px;
+}
+.banner {
+	margin-top: 20px;
+	
+}
+
+.text_content {
+	font-size: 20pt;
+	float: left;
+	margin-right: 25px;
+	width: 525px;
+	text-align: right;
+	padding-bottom: 50px;
+}
+
+.content h2 {
+	font-size: 20pt;
+}
+.content p {
+	font-size: 20pt;
+}
+.type_nume {
+	font-size: 20pt;
+}
+
+.guide {
+	margin-top: 100px;
+}
+
+.guide p {
+	margin-top: 25px;
+}
+
+.download h2 {
+	font-size: 26pt;
+}
+
+.download {
+	text-align: center;
+}
+
+.footer {
+	
+	background: #37b201;
+	height: 100px;
+	
+}
+
+.footer h4 {
+	color: #FFF;
+	padding-top: 10px;
+	margin-left: 100px;
+	font-size: 16pt;
+}

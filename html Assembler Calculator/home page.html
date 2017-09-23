@@ -1,81 +1,88 @@
+<!DOCTYPE html>
+
 <html>
 	<head>
-		<charset=utf-8>
- 
-		<link rel="stylesheet" type="text/css" href="css/home_page.css">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/reset.css" type="text/css" />
+ 		<link rel="stylesheet" href="css/home_page.css" type="text/css">
 		<script src="javascript/javascript_1.js"></script>
-	
 		<title>Assembler Calculator</title>
  
 	</head>
-	<body bgcolor="#C0C0C0" leftmargin="50" rightmargin="50">
+	<body>
 		<header>
-			<img style="margin: 20px 20px 2px 1px; float: center;" src="images/head.jpg" width="100%" height="50%" />
-			<hr color="#A9A9A9">
+			<img src="images/head2.jpg" width="100%" height="50%" />
 		</header>
  
  
-		<div align="center">
-			<table cellspacing="10" cellpadding="10" >
-				<tr><td>
-					<table  cellspacing="10" cellpadding="10">
-						<tr><td><h1>Добро Пожаловать на сайт Ассемблер Калькулятор!!!</h1></td></tr>
-						<tr><td><h2><u>Калькулятор предназначен для вычислений, которые используются в программировании.</u></h2></td></tr>
-						<tr><td>
-							<ol>         
-								<li class="type_nume">Вы можете легко и быстро посчитать десятичные, шестнадцатеричные, восьмеричные и двоичные числа.</li>
-								<li class="type_nume">Кроме сложения, вычетания, деления и умножения, имеются и логические операции: XOR, OR, AND, NOT.</li>
-								<li class="type_nume">В программе есть Логические таблицы и таблица Систем счисления.</li>
-							</ol>
-						</td></tr>
-
-					</table>
-					</td>
-					<td>
+		<div class="welcome">
 			
-						<table class="radius" border="1" style="border-radius: 40px 10px"  cellspacing="10" cellpadding="10">
-							<td><img id="cover" src="images/rus/1.png" width="230" height="380"></td>
-						</table>
+				
+					
+			<h1>Добро Пожаловать на сайт Ассемблер Калькулятор</h1>
+			<div class="container">
+				<div class="cover">			
+					<img  src="images/rus/1.png" width="190" height="380"></td>
+				</div>		
 						
-					</td>
-				</tr>
-			</table>
+				<div class="text">	
+					<p>Калькулятор предназначен для вычислений, которые используются в программировании.
+						
+							         
+					Вы можете легко и быстро посчитать десятичные, шестнадцатеричные, восьмеричные и двоичные числа.
+						Кроме сложения, вычетания, деления и умножения, имеются и логические операции: XOR, OR, AND, NOT.
+						В программе есть Логические таблицы и таблица Систем счисления.
+					</p>
+				</div>					
+			</div>			
+
+					
+ 	
 		</div>
 		
 
-		<div>
-			<img style="margin:  5px 5px 5px; float: left;" src="images/pic1.jpg" width="250" height="230"/>
- 
-			<p>Приложение предназначено для компьютерных вычисление, в котором можно складывать, вычитать, умножать и делить десятичные, шестнадцатеричные, восьмеричные и двоичные числа. В конце числа стоит соответствующая буква обозначающая тип вводимого числа.</p>
-				<!-- YOUTUBE -->
-			<iframe style="margin: 5px 5px 1px; float: right;" width="560" height="315" src="https://www.youtube.com/embed/pmDE8SLjhqo?rel=0" frameborder="0" allowfullscreen></iframe>
-
-			<h2>Обозначения типов чисел:</h2>
+		<div class="content">
 			
-				<ol class="type_nume" color="#FF4500">         
+			<div class="text_content">
+				<p>Приложение предназначено для компьютерных вычислений, в котором можно складывать, вычитать, умножать и делить десятичные, шестнадцатеричные, восьмеричные и двоичные числа. В конце числа стоит соответствующая буква обозначающая тип вводимого числа.</p>
+			</div>
+			<div class="banner">
+				<img  src="images/pic1.jpg" width="250" height="160"/>
+			</div>
+				
+			<div class="guide">	
+				<h2  >Обозначения типов чисел:</h2>
+			
+					<ol class="type_nume" color="#FF4500" >         
 					<li class="type_nume"><span class="colortext">b</span> – двоичное;</li>
 					<li class="type_nume"><span class="colortext">o</span> – восьмеричное;</li>
 					<li class="type_nume"><span class="colortext">d</span> – десятичное;</li>
 					<li class="type_nume"><span class="colortext">h</span> – шестнадцатеричное;</li>
-				</ol>
+					</ol>
+				<p align="justify">Математические действия можно производить, как и для одного, так и для разных типов чисел. Результат выводится в четырех вариантах, в: десятичной, шестнадцатеричной, восьмеричной и двоичной системах счисления. В панели навигации предусмотрен выбор вывода ответов. Кроме математических действий предусмотрены и логические действия XOR, OR, AND и NOT.</p>
+		
+				<p align="justify">В панели навигации, кроме инструкции, в помощь есть таблицы логических операций и таблица систем счисления.</p>
+			</div>
+		<!-- YOUTUBE -->
+			
+		<iframe style="display: table; margin: 50px auto;" width="560" height="315" src="https://www.youtube.com/embed/pmDE8SLjhqo?rel=0" frameborder="0" allowfullscreen></iframe>
+
 		</div>
 	
 	
-		<p>Математические действия можно производить, как и для одного, так и для разных типов чисел. Результат выводится в четырех вариантах, в: десятичной, шестнадцатеричной, восьмеричной и двоичной системах счисления. В панели навигации предусмотрен выбор вывода ответов. Кроме математических действий предусмотрены и логические действия XOR, OR, AND и NOT.</p>
-		<br>
-		<p>В панели навигации, кроме инструкции, в помощь есть таблицы логических операций и таблица систем счисления.</p>
-
-		<br>
 		
 
-		<div align="center">
-			<h2><u>Программа Бесплатная и Доступна в Google Play</u></h2>
+		
+		
+
+		<div class="download">
+			<h2 align="center">Программа Бесплатная и Доступна в Google Play</h2>
 			<a href='https://play.google.com/store/apps/details?id=com.yurka.sergeant_matatov.assemblercalculator&hl=ru&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Доступно в Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/ru_badge_web_generic.png'/></a>
 		</div>
  
 	
-		<hr color="#A9A9A9">
-		<h4>&copy; Yurka Matatov.</h4>
-
+		<div class="footer" >
+			<h4>&copy; Yurka Matatov.</h4>
+		</div>
 	</body>
 </html>

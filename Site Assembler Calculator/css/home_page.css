@@ -1,5 +1,5 @@
-﻿span.colortext {
-	color: #FF4500; /* Красный цвет выделения ... */
+span.colortext {
+	color: #FF4500; /* Красный цвет выделения */
 }
 
 h1, h2, h3, h4, p {
@@ -44,7 +44,7 @@ ul.lang{
 	
 }
 .cover {
-	width: 190px;
+	width: 100px;
 	height: 380px;
 	margin: 0px 25px 0px 0px;
 	float: left;
@@ -54,8 +54,7 @@ ul.lang{
 	display: table; margin: 50px auto 0 auto;
 	width: 500px;
 	height: 200px;
-	
-	
+
 }
 
 .text p {
@@ -111,9 +110,11 @@ ul.lang{
 .footer {
 	background: #37b201;
 	height: 100px;
+	
+
 }
 
-.footer h4 {
+.footer p {
 	color: #FFF;
 	padding-top: 10px;
 	margin-left: 100px;

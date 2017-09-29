@@ -19,6 +19,7 @@ var app = angular.module('app', ['pascalprecht.translate']);
 		TEXT_4:"In the navigation bar, in addition to the instructions in the help of logical operations there are tables and table number systems.",
 		TEXT_5:"Free and Affordable Program",
 		LINK_YOU_TUBE:"https://www.youtube.com/embed/-acI9A06Xzs?rel=0",
+		TEXT_FINISH:"2017, Israel, Developer Yury Matatov, Designer Nikita Matatov",
 		
 		BUTTON_LANG_EN:"english",
 		BUTTON_LANG_RU:"русский"
@@ -36,6 +37,7 @@ var app = angular.module('app', ['pascalprecht.translate']);
 		TEXT_4:"В панели навигации, кроме инструкции, в помощь есть таблицы логических операций и таблица систем счисления.	",
 		TEXT_5:"Программа Бесплатная и Доступная",
 		LINK_YOU_TUBE:"https://www.youtube.com/embed/pmDE8SLjhqo?rel=0",
+		TEXT_FINISH:"2017 г., Израиль, Разработчик Мататов Юрий, Дизайнер Мататов Никита",
 			
 		BUTTON_LANG_EN:"english",
 		BUTTON_LANG_RU:"русский"

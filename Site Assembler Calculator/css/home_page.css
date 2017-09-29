@@ -13,6 +13,19 @@ h1, h2, h3, h4, p {
  margin-bottom: 100px;
 }
 
+li.lang{
+	display:inline;
+}
+
+ul.lang{
+	list-style-type:none;
+	margin:0;
+	padding:10px;
+	text-align:right;
+	line-height: 15px;
+	word-spacing: 20px;
+}
+
 .welcome {
 	width: 100%;
 	height: 500px;
@@ -23,7 +36,6 @@ h1, h2, h3, h4, p {
 .welcome h1 {
 	text-align: center;
 	font-size: 30pt;
-	
 }
 
 .container {
@@ -36,7 +48,6 @@ h1, h2, h3, h4, p {
 	height: 380px;
 	margin: 0px 25px 0px 0px;
 	float: left;
-	
 }
 
 .text {
@@ -78,6 +89,7 @@ h1, h2, h3, h4, p {
 }
 .type_nume {
 	font-size: 20pt;
+	
 }
 
 .guide {
@@ -97,10 +109,8 @@ h1, h2, h3, h4, p {
 }
 
 .footer {
-	
 	background: #37b201;
 	height: 100px;
-	
 }
 
 .footer h4 {

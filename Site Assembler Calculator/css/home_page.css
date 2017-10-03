@@ -25,6 +25,22 @@ ul.lang{
 	line-height: 15px;
 	word-spacing: 20px;
 }
+.lang_button {
+	 display: inline-block;
+	color: white;
+	text-decoration: none;
+	padding: .5em 2em;
+	outline: none;
+	border-radius: 4px;
+	background:  #38b801;
+	transition: 0.2s;
+}
+.lang_button:hover { background: #87DC63; }
+.lang_button:active { background: #247800; }
+
+.lang_button a {
+	display: table;
+}
 
 .welcome {
 	width: 100%;
@@ -44,7 +60,7 @@ ul.lang{
 	
 }
 .cover {
-	width: 100px;
+	width: 190px;
 	height: 380px;
 	margin: 0px 25px 0px 0px;
 	float: left;
@@ -67,7 +83,7 @@ ul.lang{
 	width: 800px;
 }
 .banner {
-	margin-top: 20px;
+	margin-top: 5px;
 	
 }
 
@@ -88,9 +104,16 @@ ul.lang{
 }
 .type_nume {
 	font-size: 20pt;
+	font-family: Roboto;
+		
+}
+.guide h3 { /* надпись съехала */
+
+}
+.guide ol {
+	display: table;
 	
 }
-
 .guide {
 	margin-top: 100px;
 }

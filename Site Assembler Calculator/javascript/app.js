@@ -21,8 +21,8 @@ var app = angular.module('app', ['pascalprecht.translate']);
 		LINK_YOU_TUBE:"https://www.youtube.com/embed/-acI9A06Xzs?rel=0",
 		TEXT_FINISH:"2017, Israel, Developer Yury Matatov, Designer Nikita Matatov",
 		
-		BUTTON_LANG_EN:"english",
-		BUTTON_LANG_RU:"русский"
+		BUTTON_LANG_EN:"English",
+		BUTTON_LANG_RU:"Русский"
     });
     $translateProvider.translations('ru', {
 		WELCOME:"Добро Пожаловать на сайт Ассемблер Калькулятор",
@@ -39,8 +39,8 @@ var app = angular.module('app', ['pascalprecht.translate']);
 		LINK_YOU_TUBE:"https://www.youtube.com/embed/pmDE8SLjhqo?rel=0",
 		TEXT_FINISH:"2017 г., Израиль, Разработчик Мататов Юрий, Дизайнер Мататов Никита",
 			
-		BUTTON_LANG_EN:"english",
-		BUTTON_LANG_RU:"русский"
+		BUTTON_LANG_EN:"English",
+		BUTTON_LANG_RU:"Русский"
     });
     $translateProvider.useSanitizeValueStrategy('escape');
     $translateProvider.preferredLanguage('en');

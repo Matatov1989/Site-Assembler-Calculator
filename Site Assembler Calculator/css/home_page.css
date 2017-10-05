@@ -2,8 +2,11 @@ span.colortext {
 	color: #FF4500; /* Красный цвет выделения */
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, a {
 	font-family: Roboto;
+}
+body {
+
 }
 .radius
 {
@@ -64,6 +67,10 @@ ul.lang{
 	height: 380px;
 	margin: 0px 25px 0px 0px;
 	float: left;
+}
+.cover img {
+	width: 190px;
+	height: 380px;
 }
 
 .text {
@@ -143,3 +150,12 @@ ul.lang{
 	margin-left: 100px;
 	font-size: 16pt;
 }
+
+iframe {
+	width: 560px;
+	height: 315px;
+}
+
+
+/* Адаптивная верстка */
+
